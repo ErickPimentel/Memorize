@@ -17,6 +17,8 @@
 		8048AAED28150189004286D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8048AAEC28150189004286D2 /* Preview Assets.xcassets */; };
 		80B5D8162815FD920024CB22 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5D8152815FD920024CB22 /* MemoryGame.swift */; };
 		80B5D8182815FEBC0024CB22 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5D8172815FEBC0024CB22 /* EmojiMemoryGame.swift */; };
+		83DF75F828F4EBEB00B772E9 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF75F728F4EBEB00B772E9 /* Pie.swift */; };
+		83DF75FA28F4F55400B772E9 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF75F928F4F55400B772E9 /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		8048AAEE28150189004286D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B5D8152815FD920024CB22 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		80B5D8172815FEBC0024CB22 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		83DF75F728F4EBEB00B772E9 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		83DF75F928F4F55400B772E9 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 			children = (
 				8048AAE528150188004286D2 /* MemorizeApp.swift */,
 				8048AAE728150188004286D2 /* EmojiMemoryGameView.swift */,
+				83DF75F928F4F55400B772E9 /* Cardify.swift */,
+				83DF75F728F4EBEB00B772E9 /* Pie.swift */,
 				8006B0A3285565B600DC8788 /* Grid.swift */,
 				8006B0A728556F8800DC8788 /* Array+Identifiable.swift */,
 				8006B0A5285569D000DC8788 /* GridLayout.swift */,
@@ -159,10 +165,12 @@
 				80B5D8162815FD920024CB22 /* MemoryGame.swift in Sources */,
 				8048AAE828150188004286D2 /* EmojiMemoryGameView.swift in Sources */,
 				8048AAE628150188004286D2 /* MemorizeApp.swift in Sources */,
+				83DF75F828F4EBEB00B772E9 /* Pie.swift in Sources */,
 				8006B0A6285569D000DC8788 /* GridLayout.swift in Sources */,
 				8006B0A4285565B600DC8788 /* Grid.swift in Sources */,
 				8006B0A828556F8800DC8788 /* Array+Identifiable.swift in Sources */,
 				80B5D8182815FEBC0024CB22 /* EmojiMemoryGame.swift in Sources */,
+				83DF75FA28F4F55400B772E9 /* Cardify.swift in Sources */,
 				8006B0AA285579E200DC8788 /* Array+Only.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = 48C7G58FX3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -314,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = 48C7G58FX3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
